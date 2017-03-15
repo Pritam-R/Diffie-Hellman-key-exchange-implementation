@@ -19,6 +19,6 @@ e.g., DHKE_CLI('127.0.0.1','192.168.1.3',8844)
 4) Client (DHKE_CLI) can only store one key that it has negotiated with the server in a file name 'agent.key'.
 5) First, run the DHKE_SERV.py using a python IDE or compiler. Then use the DHKE_CLI.py with proper inputs to negotiate keys.
 
-Intention behind these two modules were to enable multiple clients to communicae in a secure way with a centralized server using their respective secret keys.
+Intention behind these two modules were to enable multiple clients to communicate with a centralized server in secure fashion using their respective secret keys.
 
 #Built by - Pritam Rakshit - 15/03/2017
