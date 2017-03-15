@@ -8,11 +8,12 @@ Steps to execute:
 e.g., DHKE_main('127.0.0.1',8844)
 
 2) DHKE_CLI.py - This is the client module that negotiates the secret key with the DHEK server (DHEK_SERV.py). We need to pass the following parameters before we can start communicating with a DHKE server:
-
 	a) Server_ip - IP where the DHKE_SERV.py is running.
 	b) Client_ip - IP from where you want to negotiate a key with the server.
 	c) port_no   - Port no at which you have set the server module to run.
+
 e.g., DHKE_CLI('127.0.0.1','192.168.1.3',8844)
+
 3) Server(DHEK_SERV) can store client keys for multiple client locations. A file named 'Client.keys' will be created to store the keys pinned to the respective the client_ips.
 4) Client (DHKE_CLI) can only store one key that it has negotiated with the server in a file name 'agent.key'.
 5) First, run the DHKE_SERV.py using a python IDE or compiler. Then use the DHKE_CLI.py with proper inputs to negotiate keys.
