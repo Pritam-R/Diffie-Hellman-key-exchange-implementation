@@ -1,6 +1,6 @@
 # Diffie-Hellman-key-exchange-implementation
 Hi, this an implementation of Diffie-Hellman key exchange algorithm.
-It can be used to reach at a common secret key between two known persons or applications without any requirement of the shared key being sent over a network or email.
+It can be used to reach at a common secret key between two known persons or applications without any requirement of the secret key being sent over a network or email.
 
 Steps to execute:
 1) DHKE_SERV.py - This is the server module that listens to incoming connections from client. We need to pass two parameters before we can use it i.e. server_ip and port number.
