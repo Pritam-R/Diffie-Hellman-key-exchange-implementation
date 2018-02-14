@@ -7,7 +7,7 @@ Steps to execute:
 
 e.g., DHKE_main('127.0.0.1',8844)
 
-2) DHKE_CLI.py - This is the client module that negotiates the secret key with the DHKE server (DHEK_SERV.py). We need to pass the following parameters before we can start communicating with a DHKE server:
+2) DHKE_CLI.py - This is the client module that negotiates the secret key with the DHKE server (DHKE_SERV.py). We need to pass the following parameters before we can start communicating with a DHKE server:
 
 e.g., DHKE_CLI('127.0.0.1','192.168.1.3',8844)
 
